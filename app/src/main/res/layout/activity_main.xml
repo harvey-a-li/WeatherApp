@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="106dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="662dp"
+            android:alpha="1"
+            android:text="Austin, TX"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="384dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginEnd="14dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="384dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="548dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="92dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="384dp"
+            android:layout_height="91dp"
+
+            android:layout_marginStart="13dp"
+
+            android:layout_marginTop="456dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="184dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="384dp"
+            android:layout_height="91dp"
+
+            android:layout_marginStart="14dp"
+
+            android:layout_marginTop="365dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="275dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="384dp"
+            android:layout_height="91dp"
+
+            android:layout_marginStart="13dp"
+
+            android:layout_marginTop="274dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="366dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="384dp"
+            android:layout_height="91dp"
+
+            android:layout_marginStart="13dp"
+
+            android:layout_marginTop="183dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="457dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="384dp"
+            android:layout_height="91dp"
+
+            android:layout_marginStart="13dp"
+
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="548dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="91dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="265dp"
+            android:layout_marginBottom="564dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/temperature_three_quarters_solid__1_" />
+
+        <TextView
+            android:id="@+id/day1Wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="203dp"
+            android:layout_marginBottom="579dp"
+            android:text="wind1"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day1Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="579dp"
+            android:text="hmd1"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="222dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="567dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wind_solid" />
+
+        <TextView
+            android:id="@+id/day1Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="318dp"
+            android:layout_marginBottom="579dp"
+            android:text="temp1"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="93dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="318dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginBottom="561dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_641862" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="205dp"
+            android:layout_marginEnd="264dp"
+            android:layout_marginBottom="471dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/temperature_three_quarters_solid__1_" />
+
+        <TextView
+            android:id="@+id/day2Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="318dp"
+            android:layout_marginBottom="486dp"
+            android:text="temp2"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day2Wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="202dp"
+            android:layout_marginBottom="486dp"
+            android:text="wind2"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginTop="205dp"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="474dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wind_solid" />
+
+        <TextView
+            android:id="@+id/day2Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginBottom="486dp"
+            android:text="hmd2"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="93dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="322dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginBottom="468dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_641862" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="263dp"
+            android:layout_marginBottom="381dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/temperature_three_quarters_solid__1_" />
+
+        <TextView
+            android:id="@+id/day3Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="318dp"
+            android:layout_marginBottom="396dp"
+            android:text="temp3"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day3Wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="201dp"
+            android:layout_marginBottom="396dp"
+            android:text="wind3"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="384dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wind_solid" />
+
+        <TextView
+            android:id="@+id/day3Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="396dp"
+            android:text="hmd3"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="93dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="323dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginBottom="378dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_641862" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="386dp"
+            android:layout_marginEnd="263dp"
+            android:layout_marginBottom="290dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/temperature_three_quarters_solid__1_" />
+
+        <TextView
+            android:id="@+id/day4Wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="399dp"
+            android:layout_marginEnd="201dp"
+            android:layout_marginBottom="305dp"
+            android:text="wind4"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="386dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="293dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wind_solid" />
+
+        <TextView
+            android:id="@+id/day4Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="399dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="305dp"
+            android:text="hmd4"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="93dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="323dp"
+            android:layout_marginTop="371dp"
+            android:layout_marginBottom="287dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_641862" />
+
+        <TextView
+            android:id="@+id/day4Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="399dp"
+            android:layout_marginEnd="317dp"
+            android:layout_marginBottom="305dp"
+            android:text="temp4"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="475dp"
+            android:layout_marginEnd="263dp"
+            android:layout_marginBottom="201dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/temperature_three_quarters_solid__1_" />
+
+        <TextView
+            android:id="@+id/day5Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="491dp"
+            android:layout_marginEnd="317dp"
+            android:layout_marginBottom="213dp"
+            android:text="temp5"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day5Wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="491dp"
+            android:layout_marginEnd="201dp"
+            android:layout_marginBottom="213dp"
+            android:text="wind5"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day5Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="491dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="213dp"
+            android:text="hmd5"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="93dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="321dp"
+            android:layout_marginTop="463dp"
+            android:layout_marginBottom="195dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_641862" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="478dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="201dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wind_solid" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="568dp"
+            android:layout_marginEnd="263dp"
+            android:layout_marginBottom="108dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/temperature_three_quarters_solid__1_" />
+
+        <TextView
+            android:id="@+id/day6Wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="581dp"
+            android:layout_marginEnd="201dp"
+            android:layout_marginBottom="123dp"
+            android:text="wind6"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="568dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="111dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wind_solid" />
+
+        <TextView
+            android:id="@+id/day6Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="581dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="123dp"
+            android:text="hmd6"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="93dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="557dp"
+            android:layout_marginBottom="101dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_641862" />
+
+        <TextView
+            android:id="@+id/day6Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="581dp"
+            android:layout_marginEnd="316dp"
+            android:layout_marginBottom="123dp"
+            android:text="temp6"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day7Wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="675dp"
+            android:layout_marginEnd="201dp"
+            android:layout_marginBottom="29dp"
+            android:text="wind7"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day7Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="675dp"
+            android:layout_marginEnd="316dp"
+            android:layout_marginBottom="29dp"
+            android:text="temp7"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="662dp"
+            android:layout_marginEnd="263dp"
+            android:layout_marginBottom="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/temperature_three_quarters_solid__1_" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="662dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wind_solid" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="93dp"
+            android:layout_height="73dp"
+            android:layout_marginStart="323dp"
+            android:layout_marginTop="647dp"
+            android:layout_marginBottom="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_641862" />
+
+        <TextView
+            android:id="@+id/day7Humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="287dp"
+            android:layout_marginTop="675dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="29dp"
+            android:text="hmd7"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
